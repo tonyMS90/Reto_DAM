@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/login_background"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextEmailLogin"
+        android:hint="Email"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/et_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextPasswordLogin"
+        android:hint="Contraseña"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/et_background"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:text="Iniciar Sesión"
+        android:backgroundTint="@color/white"
+        android:textColor="#23A0DB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/buttonIrRegistro"
+        android:text="¿No tienes cuenta? Regístrate"
+        android:backgroundTint="@color/white"
+        android:textColor="#23A0DB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
